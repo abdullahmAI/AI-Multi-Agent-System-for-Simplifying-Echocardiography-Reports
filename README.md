@@ -25,7 +25,7 @@ CrewAI – Multi-agent orchestration
 
 LangChain – LLM abstraction layer
 
-Ollama – Local LLM runtime (deepseek-r1:70)
+Ollama – Local LLM runtime (deepseek-r1:70b)
 
  Project Structure
 
@@ -54,11 +54,11 @@ Install dependencies
 Make sure Ollama is running with the model
 
 ```bash
-ollama run deepseek-r1:70
+ollama run deepseek-r1:70b
 ```
 Run the main script
 ```bash
-python main.py
+final_ollama.py
 ```
  Example Output
 Original Diagnosis (from PDF):
