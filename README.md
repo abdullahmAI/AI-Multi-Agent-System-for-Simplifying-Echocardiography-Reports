@@ -42,6 +42,7 @@ Ollama – Local LLM runtime (deepseek-r1:70)
 ├── main.py              # Orchestrates the flow: PDF ➜ Diagnosis ➜ Story ➜ Arabic
 ├── requirements.txt
 └── README.md
+```
 🚀 How to Run
 Install dependencies
 ```
@@ -69,6 +70,9 @@ Your heart has a doorway (the mitral valve) that is too narrow, making it hard f
 🌐 Arabic Translation:
 
 قلبك يحتوي على صمام (الصمام التاجي) ضيق جداً، مما يجعل تدفق الدم صعبًا. وصمام آخر (الصمام الأبهري) فيه تسريب بسيط، لكنه ليس خطيرًا. تخيل منزلاً بباب عالق وآخر يتسرب منه الماء قليلاً – لا يزال يعمل، ولكن ليس بشكل مثالي.
+
+
+
 ✨ Use Cases
 Empowering patients with easy-to-understand health information
 
