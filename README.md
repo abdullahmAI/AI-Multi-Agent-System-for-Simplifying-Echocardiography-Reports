@@ -8,7 +8,7 @@
 
  Arabic Translation of the simplified story
 
-⚙ Powered by Local AI (Ollama) and CrewAI Agents
+ Powered by Local AI (Ollama) and CrewAI Agents
 
  Multi-Agent Workflow:
 Agent	Description
@@ -16,7 +16,7 @@ Agent	Description
 2. Story Teller Agent	Transforms the diagnosis into a simple, relatable story for patients (non-expert level)
 3. Translator Agent	Translates the simplified English story into Arabic for patient comprehension
 
-🛠 Technologies Used
+ Technologies Used
 Python
 
 PyPDF2 – PDF parsing
