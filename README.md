@@ -46,8 +46,9 @@ Ollama – Local LLM runtime (deepseek-r1:70)
 🚀 How to Run
 Install dependencies
 ```
-```bash
-pip install -r requirements.txt
+1- install ollama model locally into your device
+2- ensure your GPU compatibility with the installed model
+3- install CrewAI 
 ```
 Make sure Ollama is running with the model
 
