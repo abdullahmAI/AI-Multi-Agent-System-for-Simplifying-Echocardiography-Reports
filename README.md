@@ -58,7 +58,7 @@ ollama run deepseek-r1:70b
 ```
 Run the main script
 ```bash
-final_ollama.py
+agents.py
 ```
  Example Output
 Original Diagnosis (from PDF):
