@@ -51,14 +51,14 @@ Each agent is implemented with structured prompt templates, using local LLM infe
  echo-simplifier
 │
 ├── agents/
-│   ├── extractor_agent.py
-│   ├── storyteller_agent.py
-│   └── translator_agent.py
+│   ├── extractor_agent
+│   ├── storyteller_agent
+│   └── translator_agent
 │
 ├── pdf_parser/
-│   └── extract_text.py
+│   └── extract_text
 │
-├── main.py              # Orchestrates the flow: PDF ➜ Diagnosis ➜ Story ➜ Arabic
+├── main.py              
 ├── requirements.txt
 └── README.md
 ```
@@ -76,7 +76,9 @@ ollama run deepseek-r1:70b
 ```
 Run the main script
 ```bash
-agents.py
+agents.py ( if you will use terminal)
+or
+run the notebook directly
 ```
  ## Example Output:
 - Original Diagnosis (from PDF):
@@ -85,7 +87,7 @@ Severe mitral valve stenosis with mild aortic regurgitation.
 
  - Simplified Story:
 
-Your heart has a doorway (the mitral valve) that is too narrow, making it hard for blood to flow properly. Another doorway (the aortic valve) is slightly leaky, but not too concerning. Imagine a house where one door is stuck and the other drips a little — it still works, but not perfectly.
+Your heart has a doorway (the mitral valve) that is too narrow, making it hard for blood to flow properly. Another doorway (the aortic valve) is slightly leaky, but not too concerning. Imagine a house where one door is stuck and the other drips a little but it still works, but not perfectly.
 
 - Arabic Translation:
 
